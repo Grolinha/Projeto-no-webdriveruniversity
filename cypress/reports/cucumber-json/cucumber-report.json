@@ -1,0 +1,310 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "Pre Conditions",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I wait for 0 seconds",
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the webdriveruniversity login page",
+            "result": {
+              "duration": 2391000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the login button",
+            "result": {
+              "duration": 638000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;valid-login-submission-and-invalid-login-submission;;2",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Valid Login Submission and Invalid Login Submission",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type a username webdriver",
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I type a password webdriver123",
+            "result": {
+              "duration": 326000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on the login button",
+            "result": {
+              "duration": 958000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be presented with an alert box which contains text 'validation succeeded'",
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "Pre Conditions",
+        "before": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I wait for 0 seconds",
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the webdriveruniversity login page",
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the login button",
+            "result": {
+              "duration": 308000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;valid-login-submission-and-invalid-login-submission;;3",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Valid Login Submission and Invalid Login Submission",
+        "steps": [
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type a username webdriver",
+            "result": {
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I type a password webdriver",
+            "result": {
+              "duration": 251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on the login button",
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be presented with an alert box which contains text 'validation failed'",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "id": "webdriveruniversity---login-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "WebdriverUniversity - Login Page",
+    "uri": "cypress\\e2e\\Login_steps.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
